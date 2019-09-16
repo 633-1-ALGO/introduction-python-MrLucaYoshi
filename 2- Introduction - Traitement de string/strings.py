@@ -5,7 +5,7 @@ test = "Bonjour"
 
 print("Test d'affichage de la valeur N :", N, " ainsi que de la valeur a : ", a)
 print("test" + test)
-print("test" + str(N))
+print("test" + str(N)) #le str(N) compte le nombre de caractère
 
 chaine = "Ceci est un exemple"
 print("La chaine de caractère :", chaine)

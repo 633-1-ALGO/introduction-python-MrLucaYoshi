@@ -7,27 +7,18 @@
 #               Si vous êtes perfectionnistes faites vous plaisir.
 liste = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-cpt = 0
-cpt2 = 0
-cpt3 = 1
-nombre = 1
-calcul = 0
-suite = []
-while len(liste)>cpt:
-    print(liste[cpt],end=' ')
-    cpt += 1
-
-while 11 > cpt2:
-    print(" ", end=' ')
-    print(nombre, end=' ')
-    while 10 > cpt3:
-        calcul = nombre * liste[cpt3]
-        suite.append(calcul)
-        cpt3 += 1
-    print(suite[cpt2])
-    nombre += 1
-    cpt2 += 1
 
 
+def multiplication(tab, max=10):
+    ligne = 1
+    for i in range(1, max+1):
+        print(ligne, end=" ")
+        for j in range(1, max+1):
+            sumColonne = ligne * j
+            print(sumColonne, end = " ")
+        ligne += 1
+        print("")
+print(*liste)
+multiplication(liste)
 
 

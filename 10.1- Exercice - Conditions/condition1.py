@@ -11,3 +11,5 @@ elif c<0 & d>0:
         print("Négatif")
 else:
     print("Nul")
+
+#Je n'ai pas bien compris l'exercice.. Du moins comment le résoudre..
